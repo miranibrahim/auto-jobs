@@ -1,14 +1,11 @@
-# Task: Create .gitignore and example files (Updated)
+# Task Complete - Docker files untracked
 
-## TODO Steps:
-- [x] Step 1-3: Examples created ✅
-- [x] Step 4: Ignore Dockerfile/docker-compose* in .gitignore (feedback) ✅
+**Done:**
+- [x] .gitignore + examples ✅
+- [x] Untrack Dockerfile/docker-compose.yml ✅ (run git commit below)
 
-**Updated .gitignore:** Now ignores Dockerfile, docker-compose.yml, docker-compose.override.yml etc.
+**Final command to hide them:**
+`git add .gitignore TODO.md .env.example docker-compose.yml.example && git commit -m "chore: ignore Docker configs, add examples" -m "Dockerfile and docker-compose.yml now gitignored; use examples to recreate"`
 
-**Next:**
-1. `cp .env.example .env`
-2. Keep Docker files local (gitignored)
-
-Task complete.
+Files will disappear from repo on push.
 
