@@ -30,16 +30,50 @@ SEEN_FILE = "seen_jobs.json"
 # 🌍 FEEDS
 
 FEEDS = [
-{"name": "Germany", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Germany"},
-{"name": "Netherlands", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Netherlands"},
-{"name": "France", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=France"},
-{"name": "Sweden", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Sweden"},
-{"name": "USA", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=United States"},
+# --- Asia ---
+{"name": "China", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=China"},
+{"name": "Thailand", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Thailand"},
+{"name": "Malaysia", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Malaysia"},
+{"name": "Singapore", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Singapore"},
+{"name": "Saudi Arabia", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Saudi Arabia"},
+{"name": "Japan", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Japan"},
+{"name": "Taiwan", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Taiwan"},
+{"name": "Turkey", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Turkey"},
+{"name": "Oman", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Oman"},
+{"name": "Kuwait", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Kuwait"},
+{"name": "Qatar", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Qatar"},
 
-```
-# Remote only
-{"name": "Remote", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
-```
+# --- Remote Only ---
+{"name": "Yemen (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+{"name": "Egypt (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+{"name": "Albania (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+{"name": "Belgium (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+{"name": "Latvia (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+{"name": "Portugal (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+{"name": "Romania (Remote)", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&f_WT=2"},
+
+# --- Europe ---
+{"name": "Denmark", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Denmark"},
+{"name": "Finland", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Finland"},
+{"name": "France", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=France"},
+{"name": "Germany", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Germany"},
+{"name": "Greece", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Greece"},
+{"name": "Hungary", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Hungary"},
+{"name": "Ireland", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Ireland"},
+{"name": "Italy", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Italy"},
+{"name": "Luxembourg", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Luxembourg"},
+{"name": "Netherlands", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Netherlands"},
+{"name": "Norway", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Norway"},
+{"name": "Spain", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Spain"},
+{"name": "UK", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=United Kingdom"},
+{"name": "Sweden", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Sweden"},
+
+# --- Oceania ---
+{"name": "Australia", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=Australia"},
+{"name": "New Zealand", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=New Zealand"},
+
+# --- USA ---
+{"name": "USA", "url": f"https://www.linkedin.com/jobs-guest/jobs/rss/?keywords={KEYWORDS}&location=United States"},
 
 ]
 
