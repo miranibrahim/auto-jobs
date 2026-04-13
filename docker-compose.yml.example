@@ -1,0 +1,24 @@
+# Copy to docker-compose.override.yml for local development
+# This file overrides docker-compose.yml when running `docker-compose up`
+# Git-ignored examples allow customization without committing secrets/ports.
+
+version: "3.9"
+
+services:
+  job-bot:
+    # Expose port for debugging (if app had a server)
+    # ports:
+    #   - "8000:8000"
+    
+    # Additional local volumes
+    volumes:
+      - .:/app  # Bind mount for live code reload
+    
+    # Run in debug mode or different command
+    # command: >
+    #   sh -c "python app.py; sleep 60"  # Run once for testing
+    
+    # Environment overrides (use .env)
+    environment:
+      - DEBUG=true  # Add if app supports
+

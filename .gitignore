@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# Docker data (not source)
+volumes/
+data/
+
+# Ignore Docker config files (user request)
+Dockerfile
+docker-compose.yml
+
+# Project data (local state)
+seen_jobs.json
+
+# Dependencies
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
